@@ -1,0 +1,28 @@
+name: smart_supermarket
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0' # Updated to a more recent SDK range for compatibility
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_reactive_ble: ^5.2.0
+  permission_handler: ^11.0.1
+  fluttertoast: ^8.2.8 # Added fluttertoast dependency
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/plano_supermercado.png
+    - assets/images/logo.png
